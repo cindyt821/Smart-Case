@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F73DB8925BB920600DEC6A2 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F73DB8825BB920600DEC6A2 /* NewUserViewController.swift */; };
+		7F73DB8D25BB97BC00DEC6A2 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F73DB8C25BB97BC00DEC6A2 /* HomepageViewController.swift */; };
+		7F73DB9025BB9B4A00DEC6A2 /* DeviceLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F73DB8F25BB9B4A00DEC6A2 /* DeviceLocationViewController.swift */; };
+		7F73DB9325BBA4E000DEC6A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F73DB9225BBA4E000DEC6A2 /* GoogleService-Info.plist */; };
 		7FE7A81D25BA27CC0038B30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7A81C25BA27CC0038B30B /* AppDelegate.swift */; };
 		7FE7A81F25BA27CC0038B30B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7A81E25BA27CC0038B30B /* SceneDelegate.swift */; };
 		7FE7A82125BA27CC0038B30B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7A82025BA27CC0038B30B /* ViewController.swift */; };
 		7FE7A82425BA27CC0038B30B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE7A82225BA27CC0038B30B /* Main.storyboard */; };
 		7FE7A82625BA27CE0038B30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE7A82525BA27CE0038B30B /* Assets.xcassets */; };
 		7FE7A82925BA27CE0038B30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE7A82725BA27CE0038B30B /* LaunchScreen.storyboard */; };
-		7FE7A83625BA2D970038B30B /* Homepage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE7A83525BA2D970038B30B /* Homepage.storyboard */; };
+		B1DCC3DDEC32818E4063EC6D /* Pods_SmartCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7902657A36537CEC4F3A7F2C /* Pods_SmartCase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BD7D8E28BDAC90FC5558019 /* Pods-SmartCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCase.release.xcconfig"; path = "Target Support Files/Pods-SmartCase/Pods-SmartCase.release.xcconfig"; sourceTree = "<group>"; };
+		7902657A36537CEC4F3A7F2C /* Pods_SmartCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F73DB8825BB920600DEC6A2 /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
+		7F73DB8C25BB97BC00DEC6A2 /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		7F73DB8F25BB9B4A00DEC6A2 /* DeviceLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLocationViewController.swift; sourceTree = "<group>"; };
+		7F73DB9225BBA4E000DEC6A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7FE7A81925BA27CC0038B30B /* SmartCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE7A81C25BA27CC0038B30B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FE7A81E25BA27CC0038B30B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +35,7 @@
 		7FE7A82525BA27CE0038B30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FE7A82825BA27CE0038B30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FE7A82A25BA27CE0038B30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FE7A83525BA2D970038B30B /* Homepage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homepage.storyboard; sourceTree = "<group>"; };
+		FD7B4EEDFCAE4051066681E2 /* Pods-SmartCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCase.debug.xcconfig"; path = "Target Support Files/Pods-SmartCase/Pods-SmartCase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1DCC3DDEC32818E4063EC6D /* Pods_SmartCase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C29B926AE0532EFF4387743 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD7B4EEDFCAE4051066681E2 /* Pods-SmartCase.debug.xcconfig */,
+				1BD7D8E28BDAC90FC5558019 /* Pods-SmartCase.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7FE7A81025BA27CC0038B30B = {
 			isa = PBXGroup;
 			children = (
 				7FE7A81B25BA27CC0038B30B /* SmartCase */,
 				7FE7A81A25BA27CC0038B30B /* Products */,
+				4C29B926AE0532EFF4387743 /* Pods */,
+				DC59A3BF7914B916092C0DE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +84,24 @@
 				7FE7A81C25BA27CC0038B30B /* AppDelegate.swift */,
 				7FE7A81E25BA27CC0038B30B /* SceneDelegate.swift */,
 				7FE7A82025BA27CC0038B30B /* ViewController.swift */,
-				7FE7A83525BA2D970038B30B /* Homepage.storyboard */,
 				7FE7A82225BA27CC0038B30B /* Main.storyboard */,
+				7F73DB8F25BB9B4A00DEC6A2 /* DeviceLocationViewController.swift */,
+				7F73DB8825BB920600DEC6A2 /* NewUserViewController.swift */,
+				7F73DB8C25BB97BC00DEC6A2 /* HomepageViewController.swift */,
 				7FE7A82525BA27CE0038B30B /* Assets.xcassets */,
 				7FE7A82725BA27CE0038B30B /* LaunchScreen.storyboard */,
 				7FE7A82A25BA27CE0038B30B /* Info.plist */,
+				7F73DB9225BBA4E000DEC6A2 /* GoogleService-Info.plist */,
 			);
 			path = SmartCase;
+			sourceTree = "<group>";
+		};
+		DC59A3BF7914B916092C0DE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7902657A36537CEC4F3A7F2C /* Pods_SmartCase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FE7A82D25BA27CE0038B30B /* Build configuration list for PBXNativeTarget "SmartCase" */;
 			buildPhases = (
+				96BDD89D4FEE517E61F8ACD3 /* [CP] Check Pods Manifest.lock */,
 				7FE7A81525BA27CC0038B30B /* Sources */,
 				7FE7A81625BA27CC0038B30B /* Frameworks */,
 				7FE7A81725BA27CC0038B30B /* Resources */,
+				9AE34F4AACD7BE67ED2B8FCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,8 +163,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FE7A83625BA2D970038B30B /* Homepage.storyboard in Resources */,
 				7FE7A82925BA27CE0038B30B /* LaunchScreen.storyboard in Resources */,
+				7F73DB9325BBA4E000DEC6A2 /* GoogleService-Info.plist in Resources */,
 				7FE7A82625BA27CE0038B30B /* Assets.xcassets in Resources */,
 				7FE7A82425BA27CC0038B30B /* Main.storyboard in Resources */,
 			);
@@ -136,14 +172,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		96BDD89D4FEE517E61F8ACD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartCase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AE34F4AACD7BE67ED2B8FCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartCase/Pods-SmartCase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartCase/Pods-SmartCase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartCase/Pods-SmartCase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7FE7A81525BA27CC0038B30B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7FE7A82125BA27CC0038B30B /* ViewController.swift in Sources */,
+				7F73DB9025BB9B4A00DEC6A2 /* DeviceLocationViewController.swift in Sources */,
 				7FE7A81D25BA27CC0038B30B /* AppDelegate.swift in Sources */,
+				7F73DB8925BB920600DEC6A2 /* NewUserViewController.swift in Sources */,
 				7FE7A81F25BA27CC0038B30B /* SceneDelegate.swift in Sources */,
+				7F73DB8D25BB97BC00DEC6A2 /* HomepageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +368,7 @@
 		};
 		7FE7A82E25BA27CE0038B30B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7B4EEDFCAE4051066681E2 /* Pods-SmartCase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +387,7 @@
 		};
 		7FE7A82F25BA27CE0038B30B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD7D8E28BDAC90FC5558019 /* Pods-SmartCase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
